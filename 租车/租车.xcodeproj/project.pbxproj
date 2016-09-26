@@ -1,0 +1,430 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		18810F2E1BFDB89600170E6F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18810F2C1BFDB89600170E6F /* Main.storyboard */; };
+		18810F311BFDB89600170E6F /* __.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 18810F2F1BFDB89600170E6F /* __.xcdatamodeld */; };
+		18810F331BFDB89600170E6F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18810F321BFDB89600170E6F /* Assets.xcassets */; };
+		18810F361BFDB89600170E6F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18810F341BFDB89600170E6F /* LaunchScreen.storyboard */; };
+		18810F471BFDC22600170E6F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 18810F451BFDC22600170E6F /* AppDelegate.m */; };
+		18810F481BFDC22600170E6F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 18810F461BFDC22600170E6F /* main.m */; };
+		18810F511BFDC32500170E6F /* TGLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18810F501BFDC32500170E6F /* TGLoginViewController.m */; };
+		18E6509E1BFF09E400D24069 /* UIBarButtonItem+TG.m in Sources */ = {isa = PBXBuildFile; fileRef = 18E6509D1BFF09E400D24069 /* UIBarButtonItem+TG.m */; };
+		18E650A71BFF0DC200D24069 /* TGHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18E650A61BFF0DC200D24069 /* TGHomeViewController.m */; };
+		18E650AA1C001F0200D24069 /* TGPersonalCenterController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18E650A91C001F0200D24069 /* TGPersonalCenterController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		18810F201BFDB89600170E6F /* 租车.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "租车.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		18810F2D1BFDB89600170E6F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		18810F301BFDB89600170E6F /* __.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = __.xcdatamodel; sourceTree = "<group>"; };
+		18810F321BFDB89600170E6F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		18810F351BFDB89600170E6F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		18810F371BFDB89600170E6F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18810F441BFDC22600170E6F /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		18810F451BFDC22600170E6F /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		18810F461BFDC22600170E6F /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		18810F4F1BFDC32500170E6F /* TGLoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TGLoginViewController.h; sourceTree = "<group>"; };
+		18810F501BFDC32500170E6F /* TGLoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TGLoginViewController.m; sourceTree = "<group>"; };
+		18E6509C1BFF09E400D24069 /* UIBarButtonItem+TG.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIBarButtonItem+TG.h"; sourceTree = "<group>"; };
+		18E6509D1BFF09E400D24069 /* UIBarButtonItem+TG.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIBarButtonItem+TG.m"; sourceTree = "<group>"; };
+		18E650A51BFF0DC200D24069 /* TGHomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TGHomeViewController.h; sourceTree = "<group>"; };
+		18E650A61BFF0DC200D24069 /* TGHomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TGHomeViewController.m; sourceTree = "<group>"; };
+		18E650A81C001F0200D24069 /* TGPersonalCenterController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TGPersonalCenterController.h; sourceTree = "<group>"; };
+		18E650A91C001F0200D24069 /* TGPersonalCenterController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TGPersonalCenterController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		18810F1D1BFDB89600170E6F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		18810F171BFDB89600170E6F = {
+			isa = PBXGroup;
+			children = (
+				18810F221BFDB89600170E6F /* 租车 */,
+				18810F211BFDB89600170E6F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		18810F211BFDB89600170E6F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				18810F201BFDB89600170E6F /* 租车.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		18810F221BFDB89600170E6F /* 租车 */ = {
+			isa = PBXGroup;
+			children = (
+				18810F401BFDC22600170E6F /* Classes */,
+				18810F2C1BFDB89600170E6F /* Main.storyboard */,
+				18810F321BFDB89600170E6F /* Assets.xcassets */,
+				18810F341BFDB89600170E6F /* LaunchScreen.storyboard */,
+				18810F371BFDB89600170E6F /* Info.plist */,
+				18810F2F1BFDB89600170E6F /* __.xcdatamodeld */,
+				18810F231BFDB89600170E6F /* Supporting Files */,
+			);
+			path = "租车";
+			sourceTree = "<group>";
+		};
+		18810F231BFDB89600170E6F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		18810F401BFDC22600170E6F /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				18810F411BFDC22600170E6F /* Home */,
+				18810F421BFDC22600170E6F /* Login */,
+				18810F431BFDC22600170E6F /* Other */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		18810F411BFDC22600170E6F /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				18810F491BFDC2A700170E6F /* Controllers */,
+				18810F4A1BFDC2A700170E6F /* Models */,
+				18810F4B1BFDC2A700170E6F /* Views */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		18810F421BFDC22600170E6F /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				18810F4C1BFDC2B900170E6F /* Controllers */,
+				18810F4D1BFDC2B900170E6F /* Models */,
+				18810F4E1BFDC2B900170E6F /* Views */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		18810F431BFDC22600170E6F /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				18E6509B1BFF09A500D24069 /* Category */,
+				18810F441BFDC22600170E6F /* AppDelegate.h */,
+				18810F451BFDC22600170E6F /* AppDelegate.m */,
+				18810F461BFDC22600170E6F /* main.m */,
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		18810F491BFDC2A700170E6F /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				18E650A51BFF0DC200D24069 /* TGHomeViewController.h */,
+				18E650A61BFF0DC200D24069 /* TGHomeViewController.m */,
+				18E650A81C001F0200D24069 /* TGPersonalCenterController.h */,
+				18E650A91C001F0200D24069 /* TGPersonalCenterController.m */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		18810F4A1BFDC2A700170E6F /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		18810F4B1BFDC2A700170E6F /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		18810F4C1BFDC2B900170E6F /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				18810F4F1BFDC32500170E6F /* TGLoginViewController.h */,
+				18810F501BFDC32500170E6F /* TGLoginViewController.m */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		18810F4D1BFDC2B900170E6F /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		18810F4E1BFDC2B900170E6F /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		18E6509B1BFF09A500D24069 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				18E6509C1BFF09E400D24069 /* UIBarButtonItem+TG.h */,
+				18E6509D1BFF09E400D24069 /* UIBarButtonItem+TG.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		18810F1F1BFDB89600170E6F /* 租车 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18810F3A1BFDB89600170E6F /* Build configuration list for PBXNativeTarget "租车" */;
+			buildPhases = (
+				18810F1C1BFDB89600170E6F /* Sources */,
+				18810F1D1BFDB89600170E6F /* Frameworks */,
+				18810F1E1BFDB89600170E6F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "租车";
+			productName = "租车";
+			productReference = 18810F201BFDB89600170E6F /* 租车.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		18810F181BFDB89600170E6F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = TG;
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = tarena;
+				TargetAttributes = {
+					18810F1F1BFDB89600170E6F = {
+						CreatedOnToolsVersion = 7.1;
+					};
+				};
+			};
+			buildConfigurationList = 18810F1B1BFDB89600170E6F /* Build configuration list for PBXProject "租车" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 18810F171BFDB89600170E6F;
+			productRefGroup = 18810F211BFDB89600170E6F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				18810F1F1BFDB89600170E6F /* 租车 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		18810F1E1BFDB89600170E6F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18810F361BFDB89600170E6F /* LaunchScreen.storyboard in Resources */,
+				18810F331BFDB89600170E6F /* Assets.xcassets in Resources */,
+				18810F2E1BFDB89600170E6F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		18810F1C1BFDB89600170E6F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18E650AA1C001F0200D24069 /* TGPersonalCenterController.m in Sources */,
+				18810F471BFDC22600170E6F /* AppDelegate.m in Sources */,
+				18E6509E1BFF09E400D24069 /* UIBarButtonItem+TG.m in Sources */,
+				18E650A71BFF0DC200D24069 /* TGHomeViewController.m in Sources */,
+				18810F511BFDC32500170E6F /* TGLoginViewController.m in Sources */,
+				18810F481BFDC22600170E6F /* main.m in Sources */,
+				18810F311BFDB89600170E6F /* __.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		18810F2C1BFDB89600170E6F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18810F2D1BFDB89600170E6F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		18810F341BFDB89600170E6F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18810F351BFDB89600170E6F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		18810F381BFDB89600170E6F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		18810F391BFDB89600170E6F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		18810F3B1BFDB89600170E6F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "租车/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tarena.--";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		18810F3C1BFDB89600170E6F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "租车/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tarena.--";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		18810F1B1BFDB89600170E6F /* Build configuration list for PBXProject "租车" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18810F381BFDB89600170E6F /* Debug */,
+				18810F391BFDB89600170E6F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18810F3A1BFDB89600170E6F /* Build configuration list for PBXNativeTarget "租车" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18810F3B1BFDB89600170E6F /* Debug */,
+				18810F3C1BFDB89600170E6F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		18810F2F1BFDB89600170E6F /* __.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				18810F301BFDB89600170E6F /* __.xcdatamodel */,
+			);
+			currentVersion = 18810F301BFDB89600170E6F /* __.xcdatamodel */;
+			path = __.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 18810F181BFDB89600170E6F /* Project object */;
+}
